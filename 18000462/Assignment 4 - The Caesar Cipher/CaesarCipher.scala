@@ -22,7 +22,7 @@ object CaesarCipher{
      println("Enter the No. of Shifts : ")
      val shift:Int = scala.io.StdIn.readInt()
      val result = cipher(encry,inputStr,shift,alphabet)
-     println("****Encrypted Output = "+result)
+     println("*****Encrypted Output = "+result)
    }
    else if(ch==2){
      val inputStr:String = scala.io.StdIn.readLine("Enter the Text : ")
@@ -30,7 +30,7 @@ object CaesarCipher{
      println("Enter the No. of Shifts : ")
      val shift:Int = scala.io.StdIn.readInt()
      val result = cipher(decry,inputStr,shift,alphabet)
-     println("****Decrypted Output = "+result)
+     println("*****Decrypted Output = "+result)
    }else if(ch==3){
      System.exit(1)
    }else{
