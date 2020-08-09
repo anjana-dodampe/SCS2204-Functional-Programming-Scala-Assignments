@@ -6,3 +6,5 @@
  Assignment 2
  Assignment 3
  Assignment 4 - The Caesar cipher
+ Assignment 5 - Functions and Data
+ Assgnment 6 - Case class
